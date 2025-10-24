@@ -1,0 +1,46 @@
+# Dependencias
+/node_modules
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/pnpm-debug.log*
+/lerna-debug.log*
+
+# Compilación y artefactos de build
+/dist
+/build
+/out
+/coverage
+
+# Archivos de entorno y credenciales (información sensible)
+.env
+.env.local
+.env.*.local
+.DS_Store
+
+# Archivos generados por paquetes populares
+/public/build
+/.nuxt/
+/.next/
+/.vuepress/dist
+/docusaurus/build
+/rollup.config.js.map
+/vite.config.js.map
+/tsconfig.tsbuildinfo
+
+# Historial y caché de editores
+.vscode/
+.idea
+*.sublime-workspace
+*.log
+
+# Caché de npm/yarn/pnpm
+/cache
+.npm
+.yarn
+.pnpm-store
+
+# Playwright (si estás usando automatización de pruebas)
+/test-results
+/playwright-report
+/playwright/.cache

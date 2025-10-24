@@ -1,0 +1,195 @@
+# Page snapshot
+
+```yaml
+- list:
+  - listitem:
+    - link "Personas":
+      - /url: https://www.xtrim.com.ec/
+  - listitem:
+    - link "Negocios":
+      - /url: https://www.xtrim.com.ec/negocios/
+- list:
+  - listitem:
+    - link "k Te llamamos":
+      - /url: https://www.xtrim.com.ec/contactanos/
+- banner:
+  - link "Xtrim":
+    - /url: https://www.xtrim.com.ec/
+    - img "Xtrim"
+  - list:
+    - listitem:
+      - link "Planes":
+        - /url: "#"
+    - listitem:
+      - link "Zapping":
+        - /url: https://www.xtrim.com.ec/zapping/
+    - listitem:
+      - link "Canales de Atención":
+        - /url: https://www.xtrim.com.ec/canales-de-atencion/
+    - listitem:
+      - link "Tienda Xtrim":
+        - /url: https://www.tiendaxtrim.com/
+    - listitem:
+      - link " Pagar Servicio":
+        - /url: https://pagos.xtrim.com.ec/
+- main:
+  - article:
+    - list:
+      - listitem:
+        - link "Contrata Aquí":
+          - /url: https://www.xtrim.com.ec/contrata-aqui/
+          - img "Contrata Aquí"
+      - listitem:
+        - link "Contrata Aquí":
+          - /url: https://www.xtrim.com.ec/contrata-aqui/
+          - img "Contrata Aquí"
+      - listitem:
+        - link "Más Atención":
+          - /url: https://www.xtrim.com.ec/canales-de-atencion/
+          - img "Más Atención"
+      - listitem:
+        - link "Contrátalo Aquí":
+          - /url: https://www.xtrim.com.ec/contrata-aqui/
+          - img "Contrátalo Aquí"
+    - list:
+      - listitem:
+        - link " Previous":
+          - /url: "#"
+      - listitem:
+        - link " Next":
+          - /url: "#"
+    - heading "Cámbiate a Xtrim el Internet que te incluye el Futbol" [level=2]
+    - heading "Conoce nuestros Planes de Internet y Entretenimiento" [level=3]
+    - list:
+      - listitem:
+        - link "Internet":
+          - /url: "#plan-int"
+      - listitem:
+        - link "Tv & Streaming":
+          - /url: "#plan-streaming"
+    - heading "CONEXIÓN FIBRA ÓPTICA" [level=3]:
+      - strong: CONEXIÓN FIBRA ÓPTICA
+    - heading "Plan" [level=2]
+    - heading "X-PRO" [level=2]
+    - figure
+    - heading "$17,99* inc. imp." [level=2]
+    - heading "*Precio para pagos con Tarjeta de Crédito" [level=5]
+    - heading "Precio para otras forma de pago" [level=3]
+    - heading "$22,00* inc. imp." [level=3]
+    - button "¡Lo quiero!"
+    - paragraph: Ver detalles
+    - heading "CONEXIÓN FIBRA ÓPTICA" [level=3]:
+      - strong: CONEXIÓN FIBRA ÓPTICA
+    - heading "Plan" [level=2]
+    - heading "X-PLUS" [level=2]
+    - figure
+    - heading "$21,99* inc imp." [level=2]
+    - heading "*Precio para pagos con Tarjeta de Crédito" [level=5]
+    - heading "Precio para otras forma de pago" [level=3]
+    - heading "$24,00* inc. imp." [level=3]
+    - button "¡Lo quiero!"
+    - paragraph: Ver detalles
+    - heading "CONEXIÓN FIBRA ÓPTICA" [level=3]:
+      - strong: CONEXIÓN FIBRA ÓPTICA
+    - heading "Plan" [level=2]
+    - heading "X-PREMIUM" [level=2]
+    - figure
+    - heading "$34,50* inc. imp." [level=2]
+    - heading "*Precio para pagos con Tarjeta de Crédito" [level=5]
+    - heading "Precio para otras forma de pago" [level=3]
+    - heading "$34,50* inc imp." [level=3]
+    - button "¡Lo quiero!"
+    - paragraph: Ver detalles
+    - heading "CONEXIÓN FIBRA ÓPTICA" [level=3]:
+      - strong: CONEXIÓN FIBRA ÓPTICA
+    - heading "Plan" [level=2]
+    - heading "X-SUPER PREMIUM" [level=2]
+    - figure
+    - heading "$44,99* inc imp." [level=2]
+    - heading "*Precio solo para pagos con Tarjeta de Crédito" [level=5]
+    - button "¡Lo quiero!"
+    - paragraph: Ver detalles
+    - link "CONOCE MÁS DETALLES ":
+      - /url: /internet/
+    - heading "Disfruta de la mejor conexión en cualquier rincón de tu hogar" [level=2]
+    - figure
+    - paragraph: Internet súper rápido Gracias a nuestra red 100% fibra óptica hasta tu hogar
+    - figure
+    - paragraph: WIFI 6 ¡Mayor cobertura con un mayor número de dispositivos conectados a la vez!
+    - figure
+    - paragraph: Cobertura total Disfruta de tu contenido favorito en cualquier rincón de tu hogar
+    - figure:
+      - link "Contrata Aquí":
+        - /url: https://www.xtrim.com.ec/contrata-aqui/?utm_source=xtrim_corporativa&utm_medium=banner&utm_campaign=banner_contrata_home
+        - img "Contrata Aquí"
+    - text: ×
+    - link "Escribenos Aquí":
+      - /url: https://wa.me/593968600400
+      - img "Escribenos Aquí"
+- contentinfo:
+  - complementary:
+    - heading "Servicios" [level=4]
+    - list:
+      - listitem:
+        - link "Internet":
+          - /url: https://www.xtrim.com.ec/internet/
+      - listitem:
+        - link "TV&Streaming":
+          - /url: https://www.xtrim.com.ec/tvstreaming/
+      - listitem:
+        - link "Telefonía":
+          - /url: https://www.xtrim.com.ec/telefonia/
+      - listitem:
+        - link "Xtrim Mail":
+          - /url: https://www.xtrim.com.ec/webmail/
+  - complementary:
+    - heading "Servicio al cliente" [level=4]
+    - list:
+      - listitem:
+        - link "Centro de ayuda":
+          - /url: https://www.xtrim.com.ec/centro-de-ayuda/
+      - listitem:
+        - link "Canales de Pago":
+          - /url: https://www.xtrim.com.ec/red-de-pagos/
+      - listitem:
+        - link "Medidor de velocidad":
+          - /url: http://xtrim.speedtestcustom.com/
+      - listitem:
+        - link "Notificaciones":
+          - /url: https://www.xtrim.com.ec/notificaciones/
+  - complementary:
+    - heading "Empresa" [level=4]
+    - list:
+      - listitem:
+        - link "Nosotros":
+          - /url: https://www.xtrim.com.ec/nosotros/
+      - listitem:
+        - link "Reseña histórica":
+          - /url: https://www.xtrim.com.ec/resena-historica/
+      - listitem:
+        - link "Trabaja con Nosotros":
+          - /url: https://www.xtrim.com.ec/trabaja-con-nosotros/
+      - listitem:
+        - link "Canal Ético – ISO 37001":
+          - /url: https://www.xtrim.com.ec/canal-etico-iso-37001/
+      - listitem:
+        - link "Índices de Calidad":
+          - /url: https://www.xtrim.com.ec/indices-de-calidad-de-los-servicios-xtrim/
+      - listitem:
+        - link "Consumo de Internet":
+          - /url: https://www.xtrim.com.ec/consumo-de-internet/
+  - complementary:
+    - heading "Información legal" [level=4]
+    - list:
+      - listitem:
+        - link "Información pública":
+          - /url: https://www.xtrim.com.ec/informacion-publica/
+      - listitem:
+        - link "Contrato de Prestación de Servicios":
+          - /url: https://www.xtrim.com.ec/wp-content/uploads/2025/03/FORMATO-DE-CONTRATO-DE-ADHESION-XTRIM.pdf
+      - listitem:
+        - link "Política de Privacidad de Datos Personales":
+          - /url: https://www.xtrim.com.ec/politica-de-privacidad-datos/
+  - img
+  - text: © Xtrim 2025 - SERVICIOS DE TELECOMUNICACIONES SETEL S.A.
+```
