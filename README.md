@@ -11,7 +11,8 @@ El objetivo es validar funcionalidades críticas en los portales de Xtrim (conta
 |Page Object Model (POM) | Patrón de diseño utilizado para la organización del código.|
 
 ⚙️ Estructura del Proyecto
-El proyecto sigue el patrón Page Object Model (POM) para mantener el código limpio, reutilizable y fácil de mantener./
+El proyecto sigue el patrón Page Object Model (POM) para mantener el código limpio, reutilizable y fácil de mantener.
+
 ├── .gitignore
 ├── package.json
 ├── playwright.config.ts
@@ -31,24 +32,24 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local.
    El Node.js con el que se desarrolló el proyecto v22.17.0
 2. Clonar el RepositorioBashgit clone (https://github.com/ErickDemera/AutomationXtrim)
 3. Dirigirte a la dirección donde clonaste el proyecto
-cd [nombre-del-directorio-clonado]
-cd AutomationXtrim
+`cd [nombre-del-directorio-clonado]`
+`cd AutomationXtrim`
 4. Instalar Dependencias
    Instala los módulos de Node y los browsers de Playwright:
    Bash
-   - npm install
-   - npx playwright install
+   - `npm install`
+   - `npx playwright install`
    
 ▶️ Ejecución de Pruebas
 Los tests están configurados para ejecutarse por defecto en el browser Chromium.
 1. Ejecutar todos los Tests
    Este comando ejecuta todos los archivos .spec.ts en el modo headless (sin interfaz gráfica):
-   Bashnpx playwright test
+   `Bashnpx playwright test`
 2. Ejecutar un Archivo Específico
    Puedes enfocarte en las pruebas de una sola sección:
    Bash
    # Ejecutar solo las pruebas de Xtrim
-   npx playwright test tests/AutomationXtrim.spec.ts
+   `npx playwright test tests/AutomationXtrim.spec.ts`
 
 ⚠️ Nota Importante sobre reCAPTCHA (Zapping), para el entorno de pruebas, es posible que el botón "Continuar" o "Aceptar" permanezca deshabilitado debido a la presencia de sistemas de seguridad como reCAPTCHA o mecanismos anti-bot.
 Solución para QA: En un entorno de QA controlado, se recomienda solicitar al equipo de desarrollo la deshabilitación temporal o la inclusión de un token de bypass para las pruebas automatizadas.
